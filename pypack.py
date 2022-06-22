@@ -1,3 +1,4 @@
+#!/usr/local/bin/python3.10
 from sys import argv
 from dataio.fetch import FetchAndInstall
 
