@@ -1,2 +1,2 @@
 [sources]
-list = ['https://github.com/pypackman/repo/']
+list = 'https://raw.githubusercontent.com/pypackman/repo/main'

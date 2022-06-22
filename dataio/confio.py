@@ -1,10 +1,7 @@
 """
 Config IO (for loading the TOML.)
 """
-import requests
+import toml
 
-class ConfigIO:
-    def __init__(self) -> None:
-        pass
-    def load(self) -> dict:
-        return {}
+def LoadConf() -> dict:
+    with open('config.toml') as t: return toml.loads(t.read())
